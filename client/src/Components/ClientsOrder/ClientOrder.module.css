@@ -1,0 +1,13 @@
+.ps {
+    font-size: 12px;
+}
+
+.container {
+    margin-bottom: 10px;
+}
+
+@media print {
+    .print {
+        display: none;
+    }
+}

@@ -1,0 +1,7 @@
+.formControl:valid {
+    border: 2px solid green;
+}
+
+.formControl:invalid {
+    border: 2px solid red;
+}

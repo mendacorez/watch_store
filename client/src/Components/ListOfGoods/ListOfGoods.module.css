@@ -1,0 +1,139 @@
+table {
+    font-size: 14px;
+    border-spacing: 0;
+    text-align: center;
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+th {
+    background: #165479;
+    color: white;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: white;
+    padding: 6px 0 6px 0;
+}
+
+td {
+    background: #73B5DD;
+}
+
+.update {
+    background-color: #F4CA16;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    margin-right: 6px;
+    padding: 4px 7px;
+    border-radius: 3px;
+    box-shadow: 0 -3px #e4bc0800 inset;
+    transition: 0.2s;
+}
+
+.update:hover {
+    background-color: #F4DC71;
+    box-shadow: 0 -3px#F4DC71 inset;
+    cursor: pointer;
+}
+
+.update:active {
+    outline: none;
+}
+
+.delete {
+    background-color: #FF0000;
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 4px 10px;
+    border-radius: 3px;
+    box-shadow: 0 -3px #8f02029f inset;
+    transition: 0.2s;
+}
+
+.delete:hover {
+    background-color: #FF6262;
+    box-shadow: 0 -3px #FF6262 inset;
+    cursor: pointer;
+}
+
+.delete:active {
+    outline: none;
+}
+
+.add {
+    background-color: #198D40;
+    width: 67px;
+    padding: 8px 0;
+    border: none;
+    font-size: 12px;
+    color: #FFF;
+    border-radius: 3px;
+    box-shadow: 0 -3px #198d409f inset;
+    transition: 0.2s;
+    
+}
+
+.add:hover {
+    background-color: #48a567;
+    box-shadow: 0 -3px#48a567 inset;
+    cursor: pointer;
+}
+
+.add:active {
+    outline: none;
+}
+
+.operations {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #73B5DD; */
+    border-radius: 5px;
+    padding: 7px 12px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+p {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.sortBy {
+    border-radius: 5px;
+    width: 17%;
+}
+
+.sortSelect:invalid {
+    border: none;
+}
+
+.sortSelect:valid {
+    border: none;
+}
+
+.filter {
+    border-radius: 5px;
+    width: 20%;
+    text-align: center;
+}
+
+.fromTo {
+    display: flex;
+}
+
+.search {
+    width: 20%;
+}

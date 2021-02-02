@@ -1,0 +1,12 @@
+.block {
+    margin-left: 35%;
+    width: 30%;
+}
+
+.formControl:valid {
+    border: 2px solid green;
+}
+
+.formControl:invalid {
+    border: 2px solid red;
+}

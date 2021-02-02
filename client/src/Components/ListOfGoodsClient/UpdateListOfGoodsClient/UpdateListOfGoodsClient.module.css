@@ -1,0 +1,15 @@
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.block > label {
+    margin-bottom: 0;
+    color: #585656b2;
+}
+
+
+

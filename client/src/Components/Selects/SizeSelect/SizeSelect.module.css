@@ -1,0 +1,13 @@
+select {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #C3C3C3;
+}
+
+.sizeSelect:valid {
+    border: 2px solid green;
+}
+
+.sizeSelect:invalid {
+    border: 2px solid red;
+}

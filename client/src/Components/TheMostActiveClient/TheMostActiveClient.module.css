@@ -1,0 +1,9 @@
+.ps {
+    font-size: 12px;
+}
+
+@media print {
+    .button1 {
+        display: none;
+    }
+}

@@ -1,0 +1,36 @@
+.ClientHeader {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    /* background-color: #D69260; */
+    padding: 20px 50px 20px 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.button1 {
+    font-weight: 600;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 5px 7px;
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+  } 
+
+.button1:hover { 
+    background: rgb(53, 167, 110); 
+    text-decoration: none;
+    color: white;
+}
+
+.button1:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+  }
