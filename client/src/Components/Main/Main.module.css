@@ -1,4 +1,5 @@
 .main {
+    max-width: 100%;
     height: 100%;
     background: linear-gradient(180deg, #00A1FF, #B5EAFF);
     margin: 0;
